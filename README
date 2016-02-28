@@ -1,0 +1,5 @@
+I took advantage of the fact that when the expression inputted is of the form
+x y - z + (in other words, num num expression num expression num expression...),
+I could always produce the 3rd optimization level given in the README for lab 3.
+Everytime, I could put the first num in %rax then just do the following expressions
+on it easily.
