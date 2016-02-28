@@ -18,11 +18,13 @@ void push(char* s);
 char* getString(char* num);
 
 int main (int argc, char *argv[]) {
+
   int i, varCount = 0, opCount = 0;
   if(argc == 0 || argc == 1 || argc == 3) {
     fprintf(stderr, "Sorry, that is not a valid RPN function.\n");
     exit(EXIT_FAILURE);
   }
+
   for(i = 1; i < argc; i++) {
     // printf("%s\n", argv[i]);
     char *temp = *argv;
